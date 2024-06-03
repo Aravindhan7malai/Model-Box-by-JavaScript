@@ -1,4 +1,4 @@
-Model Box with JavaScript
+Modal Box with JavaScript
 
 A simple web project that demonstrates how to create a modal box using HTML, CSS, and JavaScript. When a user clicks a button, a modal box appears with some text and a close button to hide the modal.
 
@@ -16,7 +16,7 @@ Technologies Used
   2. CSS
   3. JavaScript
 
-Link to check the Model Box: https://aravindhan7malai.github.io/Model-Box-by-JavaScript/
+Link to check the Modal Box: https://aravindhan7malai.github.io/Model-Box-by-JavaScript/
 
 How It Works
   1. The project contains an HTML file that structures the content, including the button and modal box.
