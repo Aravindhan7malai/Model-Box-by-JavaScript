@@ -9,7 +9,7 @@ button_2.addEventListener('click', function () {
     model.classList.add('hide');
 })
 document.addEventListener('keydown', function(event){
-    if(event==13){
+    if(event.key === 13){
           model.classList.remove('hide');
     }
 })
