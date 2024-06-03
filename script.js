@@ -5,9 +5,11 @@ button.addEventListener('click', function () {
     model.classList.remove('hide');
 
 })
-button_2.addEventListener('click', function (e) {
+button_2.addEventListener('click', function (event) {
     model.classList.add('hide');
-    if(e.key==8){
+    var x=event.keyCode;
+    if(x==27){
         model.classList.remove('hide');
     }
 })
+
