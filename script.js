@@ -7,4 +7,7 @@ button.addEventListener('click', function () {
 })
 button_2.addEventListener('click', function () {
     model.classList.add('hide');
+    if(key==13){
+        model.classList.remove('hide');
+    }
 })
