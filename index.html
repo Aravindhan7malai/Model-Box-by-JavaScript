@@ -24,25 +24,47 @@ background-color: rgb(66, 135, 245);
     }
 
 
-    .forflex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2.5rem;
-        backgroud-color: grey;
-        border-radius:10px;
-        color: white;
-
-
-    }
-
     .model_box {
-        margin: 0;
-        padding: 0;
-        border: 1px solid rgb(102, 34, 34);
-        background-color: rgb(206, 185, 160);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+    max-width: 80%;
+    text-align: center;
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it's above other content */
+}
 
-    }
+.forflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.forflex h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.btn_2 {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #999; /* Light gray color for button */
+}
+
+.btn_2:hover {
+    color: #555; /* Darker gray color on hover */
+}
+
+
 
     .hide {
         display: none;
