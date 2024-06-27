@@ -7,85 +7,49 @@
     <title>Model Box | JavaScript</title>
 </head>
 <style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(155, 173, 173);
-}
+   body {
+        font-family: sans-serif;
+    }
 
-.modeljs {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .modeljs {
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid gray;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        
+    }
 
-.head {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
-.sub_head {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
+    .forflex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
 
-.btn {
-    padding: 10px 20px;
-    background-color: rgb(66, 135, 245);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
 
-.btn:hover {
-    background-color: rgb(51, 109, 201);
-}
+    }
 
-.model_box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(206, 185, 160);
-    padding: 20px;
-    border: 1px solid rgb(102, 34, 34);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 80%;
-    text-align: center;
-    display: none; /* Hidden by default */
-}
+    .model_box {
+        margin: 0;
+        padding: 0;
+        border: 1px solid rgb(102, 34, 34);
+        background-color: rgb(206, 185, 160);
 
-.forflex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
+    }
 
-.btn_2 {
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.btn_2:hover {
-    color: rgb(102, 34, 34);
-}
-
-.hide {
-    display: none;
-}
+    .hide {
+        display: none;
+    }
+    .btn{
+background-color: rgb(66, 135, 245);
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
 
 </style>
 
